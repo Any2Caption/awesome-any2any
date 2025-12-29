@@ -7,7 +7,7 @@
 Traditional generative models are typically designed for a fixed input–output modality pair (e.g., text-to-image or image-to-text).
 However, real-world multimodal intelligence requires the ability to flexibly generate across arbitrary modality combinations, including multi-input and multi-output settings.
 
-This repository aims to systematize Any-to-Any Generation, where models can accept inputs from arbitrary modalities and produce outputs in arbitrary modalities within a unified framework.
+This repository aims to systematize **`Any-to-Any Generation`**, where models can accept inputs from arbitrary modalities and produce outputs in arbitrary modalities within a unified framework.
 
   <p align="center">
   <img src="assets/introduction.png" width="100%">
