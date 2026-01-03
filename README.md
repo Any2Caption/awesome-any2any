@@ -52,11 +52,11 @@ A model/system is considered Any-to-Any if it satisfies at least one of the foll
 
 
 - [**NExT-GPT: Any-to-Any Multimodal LLM**](https://arxiv.org/pdf/2309.05519)  [![Paper](https://img.shields.io/badge/ICML24-FF7F50)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://next-gpt.github.io/)  [![Star](https://img.shields.io/github/stars/NExT-GPT/NExT-GPT.svg?style=social&label=Star)](https://github.com/NExT-GPT/NExT-GPT)    
-    *🏷️:* `llm`|`diffusion`|`📄🎬🖼🔊`
+    *🏷️:* `llm`|`diffusion`|`📄🎬🎨🔊`
 
 
 - [**AnyGPT: Unified Multimodal LLM with Discrete Sequence Modeling**](https://arxiv.org/abs/2402.12226) [![Paper](https://img.shields.io/badge/ACL24-191970)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://junzhan2000.github.io/AnyGPT.github.io/)  [![Star](https://img.shields.io/github/stars/OpenMOSS/AnyGPT.svg?style=social&label=Star)](https://github.com/OpenMOSS/AnyGPT)  
-    *🏷️:* `llm`|`tokenizer`|`📄🎬🖼🔊`
+    *🏷️:* `llm`|`tokenizer`|`📄🎬🎨🎶🔊`
 
 
 - [**CoDI: Any-to-Any Generation via Composable Diffusion**](https://arxiv.org/abs/2305.11846)
