@@ -48,21 +48,33 @@ A model/system is considered Any-to-Any if it satisfies at least one of the foll
 ## Any-to-Any
 
 - [**CoDi2: In-Context, Interleaved, and Interactive Any-to-Any Generation**](https://arxiv.org/abs/2311.18775)  
-    *Tags:* mllm, diffusion, multi-input, multi-output
+    *🏷️:* `llm`|`diffusion`
 
-- [**NExT-GPT: Any-to-Any Multimodal LLM**](https://arxiv.org/abs/2309.05519)  
-    *Tags:* mllm, diffusion, multi-input, multi-output
 
-- [**AnyGPT: Unified Multimodal LLM with Discrete Sequence Modeling**](https://arxiv.org/abs/2402.12226)
+- [**NExT-GPT: Any-to-Any Multimodal LLM**](https://arxiv.org/pdf/2309.05519)  [![Paper](https://img.shields.io/badge/ICML24-FF7F50)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://next-gpt.github.io/)  [![Star](https://img.shields.io/github/stars/NExT-GPT/NExT-GPT.svg?style=social&label=Star)](https://github.com/NExT-GPT/NExT-GPT)    
+    *🏷️:* `llm`|`diffusion`|`📄🎬🖼🔊`
+
+
+- [**AnyGPT: Unified Multimodal LLM with Discrete Sequence Modeling**](https://arxiv.org/abs/2402.12226) [![Paper](https://img.shields.io/badge/ACL24-191970)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://junzhan2000.github.io/AnyGPT.github.io/)  [![Star](https://img.shields.io/github/stars/OpenMOSS/AnyGPT.svg?style=social&label=Star)](https://github.com/OpenMOSS/AnyGPT)  
+    *🏷️:* `llm`|`tokenizer`|`📄🎬🖼🔊`
+
 
 - [**CoDI: Any-to-Any Generation via Composable Diffusion**](https://arxiv.org/abs/2305.11846)
 
+
 - [**Unified-IO 2: Scaling Autoregressive Multimodal Models with Vision, Language, Audio, and Action**](https://arxiv.org/abs/2312.17172)
+
 
 - [**Unified-IO: A Unified Model for Vision, Language, and Multi-Modal Tasks**](https://arxiv.org/abs/2206.08916)
 
+
 - [**SEED-LLaMA: Making LLaMA SEE and Draw with SEED Tokenizer**]()
 
+- [**4M-21: An Any-to-Any Vision Model for Tens of Tasks and Modalities**](https://arxiv.org/pdf/2406.09406) [![Paper](https://img.shields.io/badge/NIPS24-CD5C5C2)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://4m.epfl.ch/)   
+    *🏷️:* `masked modeling`|`transformer encoder-decoder`|`📄🖼`
+
+- [**4M: Massively Multimodal Masked Modeling**](https://arxiv.org/pdf/2312.06647) [![Paper](https://img.shields.io/badge/NIPS23-CD5C5C2)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://4m.epfl.ch/)   
+    *🏷️:* `masked modeling`|`transformer encoder-decoder`|`📄🖼`
 
 ## Any-to-X (output-centric)
 
