@@ -47,6 +47,12 @@ A model/system is considered Any-to-Any if it satisfies at least one of the foll
 
 ## Any-to-Any
 
+- [**Show-o2: Improved Native Unified Multimodal Models**](https://arxiv.org/pdf/2506.15564)  [![Paper](https://img.shields.io/badge/arXiv25-b22222)]  [![Star](https://img.shields.io/github/stars/showlab/Show-o.svg?style=social&label=Star)](https://github.com/showlab/Show-o)   
+    *🏷️:* `llm`|`flow`|`📄🎬🎨`
+
+- [**Show-o: One Single Transformer to Unify Multimodal Understanding and Generation**](https://arxiv.org/pdf/2408.12528)  [![Paper](https://img.shields.io/badge/ICLR25-696969)]()  [![Star](https://img.shields.io/github/stars/showlab/Show-o.svg?style=social&label=Star)](https://github.com/showlab/Show-o)   
+    *🏷️:* `llm`|`diffusion`|`📄🎬🎨`
+
 - [**CoDi2: In-Context, Interleaved, and Interactive Any-to-Any Generation**](https://arxiv.org/abs/2311.18775)  [![Paper](https://img.shields.io/badge/CVPR24-8A2BE2)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://codi-2.github.io/)  [![Star](https://img.shields.io/github/stars/microsoft/i-Code.svg?style=social&label=Star)](https://github.com/microsoft/i-Code/tree/main/CoDi-2)    
     *🏷️:* `llm`|`diffusion`|`📄🎬🎨🔊`
 
@@ -114,10 +120,10 @@ A model/system is considered Any-to-Any if it satisfies at least one of the foll
 
 
 ## Any-to-X (output-centric)
-
+    Any-to-X methods accept flexible inputs (potentially multi-modal, such as text + image + audio) but generate a single target modality. This setting is often practically useful (e.g., “any condition → text report”, “any condition → image synthesis”, “any condition → video generation”), and it highlights how systems fuse heterogeneous conditions and maintain faithfulness to each input. Compared to fully general Any-to-Any systems, Any-to-X typically has a simpler decoding interface, but still demands strong cross-modal alignment and robust conditioning mechanisms.
 
 ### Any-to-Text
-
+    Any-to-Text focuses on producing textual outputs (captioning, explanation, dialogue, reasoning traces, instruction-following) from arbitrary visual/audio/3D/video inputs.
 
 - [**InternVL3.5: Advancing Open-Source Multimodal Models in Versatility, Reasoning, and Efficiency**](https://arxiv.org/pdf/2508.18265) [![Paper](https://img.shields.io/badge/arXiv25-b22222)]()  [![Star](https://img.shields.io/github/stars/OpenGVLab/InternVL.svg?style=social&label=Star)](https://github.com/OpenGVLab/InternVL)    
     *🏷️:* `llm`|`📄🎬🎨`
@@ -148,22 +154,27 @@ A model/system is considered Any-to-Any if it satisfies at least one of the foll
     *🏷️:* `llm`|`📄🎬🎨🔊`
 
 ### Any-to-Image
+    Any-to-Image methods generate images conditioned on diverse inputs beyond text, such as images, sketches, poses, layouts, audio cues, or multi-modal prompts.
 
 - [**Any2AnyTryon: Leveraging Adaptive Position Embeddings for Versatile Virtual Clothing Tasks**](https://arxiv.org/pdf/2501.15891)  [![Paper](https://img.shields.io/badge/ICCV24-2f4f4f)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://logn-2024.github.io/Any2anyTryon/)  [![Star](https://img.shields.io/github/stars/logn-2024/Any2anyTryon.svg?style=social&label=Star)](https://github.com/logn-2024/Any2anyTryon) 
 
 
 ### Any-to-Video
-
+    Any-to-Video targets video generation from flexible conditions (text/image/video/audio/trajectory/layout).
 - [**Videopoet:A large language model for zero-shot video generation**](https://arxiv.org/pdf/2312.14125)  [![Paper](https://img.shields.io/badge/ICCV24-2f4f4f)]() [![Star](https://img.shields.io/github/stars/Alpha-VLLM/Lumina-T2X.svg?style=social&label=Star)](https://github.com/Alpha-VLLM/Lumina-T2X)  
 
 
 ## X-to-Any (input-centric)
+    X-to-Any methods start from a fixed input modality but aim to generate multiple output modalities (e.g., text → image/video/audio; image → text/video/audio). This setting is useful for studying whether a model learns a shared multimodal representation that can be decoded into different modalities. Compared to Any-to-X, the emphasis is on multi-head decoding and output diversity, often requiring modality-specific decoders while sharing a common backbone or latent space.
+
 ### Text-to-Any
+    Text-to-Any expands classic text-to-image into text-conditioned generation across multiple modalities, such as video, audio, music, speech, and even structured outputs. Typical solutions include unified diffusion/flow backbones, discrete token modeling, or LLM-centered generation that routes to modality experts.
 
 - [**Lumina-T2X: Transforming Text into Any Modality, Resolution, and Duration via Flow-based Large Diffusion Transformers**]() [![Paper](https://img.shields.io/badge/arXiv24-b22222)]()   
     *🏷️:* `Diffusion`|`🎬🎨🔊🎶🎤`
 
 ### Image-to-Any
+    Image-to-Any aims to generate other modalities from visual input, such as image → text (captioning/VQA), image → video (animation), image → audio (foley/sound), or image → 3D (reconstruction). The main technical challenge is learning mappings from static visual cues to modalities with missing dimensions (e.g., time, sound source, geometry), which often requires strong priors, world knowledge, or intermediate structured representations.
 
 ---
 
@@ -177,6 +188,7 @@ A model/system is considered Any-to-Any if it satisfies at least one of the foll
 
 - [**Brain-Conditional Multimodal Synthesis: A Survey and Taxonomy**](https://arxiv.org/pdf/2401.00430)
 
+- [**Multimodal Foundation Models: From Specialists to General-Purpose Assistants**](https://arxiv.org/pdf/2309.10020)
 - 
 
 ## Insteresting Works
@@ -184,6 +196,7 @@ A model/system is considered Any-to-Any if it satisfies at least one of the foll
 - [**Awesome-Any-to-Any-Generation**](https://github.com/macabdul9/Awesome-Any-to-Any-Generation)
 - [**Awesome-Multimodal-Large-Language-Models**](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models)
 - [**Awesome-Unified-Multimodal-Models**](https://github.com/showlab/Awesome-Unified-Multimodal-Models)
+- [**LLMs Meet Multimodal Generation and Editing: A Survey**](https://github.com/YingqingHe/Awesome-LLMs-meet-Multimodal-Generation)
 - [**Awesome-Unified-Multimodal-Models**](https://github.com/AIDC-AI/Awesome-Unified-Multimodal-Models)
 - [**Awesome-Anything**](https://github.com/VainF/Awesome-Anything)
     <details><summary>general AI methods for Anything</summary>A curated list of general AI methods for Anything: AnyObject, AnyGeneration, AnyModel, AnyTask, etc.</details>
