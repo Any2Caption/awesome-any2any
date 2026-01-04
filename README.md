@@ -292,4 +292,4 @@ Image-to-Any aims to generate other modalities from visual input, such as image 
 
 # ⭐️ Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=Any2Caption/awesome-any2any&type=date&legend=top-left)](https://www.star-history.com/#Any2Caption/awesome-any2any&type=date&legend=top-left)
+[![Star History Chart](https://api.star-history.com/svg?repos=any2any-mllm/awesome-any2any&type=date&legend=top-left)](https://www.star-history.com/#any2any-mllm/awesome-any2any&type=date&legend=top-left)
