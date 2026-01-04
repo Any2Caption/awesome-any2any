@@ -3,6 +3,10 @@
 </div>
 
 
+# 📣News
+✨✨✨We are organizing a **CVPR26 Workshop** on [Any-to-Any Multimodal Learning](https://a2a-mml-2026.vercel.app/), welcome submission.
+
+
 # 🎨 Introduction
 Traditional generative models are typically designed for a fixed input–output modality pair (e.g., text-to-image or image-to-text).
 However, real-world multimodal intelligence requires the ability to flexibly generate across arbitrary modality combinations, including multi-input and multi-output settings.
@@ -209,6 +213,8 @@ Any-to-Image methods generate images conditioned on diverse inputs beyond text, 
 
 - [**OmniGen-AR: AutoRegressive Any-to-Image Generation**](https://openreview.net/pdf?id=Gxw10T7uOm)  [![Paper](https://img.shields.io/badge/NIPS25-CD5C5C2)]()
 
+- [**Ctrl-Adapter: An Efficient and Versatile Framework for Adapting Diverse Controls to Any Diffusion Model**](https://arxiv.org/pdf/2404.09967) [![Paper](https://img.shields.io/badge/ICLR25-696969)]() [![Star](https://img.shields.io/github/stars/HL-hanlin/Ctrl-Adapter.svg?style=social&label=Star)](https://github.com/HL-hanlin/Ctrl-Adapter) 
+
 - [**OmniGen: Unified Image Generation**](https://arxiv.org/pdf/2409.11340v2)  [![Paper](https://img.shields.io/badge/CVPR24-8A2BE2)]()  
 
 - [**Any2AnyTryon: Leveraging Adaptive Position Embeddings for Versatile Virtual Clothing Tasks**](https://arxiv.org/pdf/2501.15891)  [![Paper](https://img.shields.io/badge/ICCV24-2f4f4f)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://logn-2024.github.io/Any2anyTryon/)  [![Star](https://img.shields.io/github/stars/logn-2024/Any2anyTryon.svg?style=social&label=Star)](https://github.com/logn-2024/Any2anyTryon) 
@@ -216,7 +222,10 @@ Any-to-Image methods generate images conditioned on diverse inputs beyond text, 
 
 ### Any-to-Video
 Any-to-Video targets video generation from flexible conditions (text/image/video/audio/trajectory/layout).
+
 - [**Videopoet:A large language model for zero-shot video generation**](https://arxiv.org/pdf/2312.14125)  [![Paper](https://img.shields.io/badge/ICCV24-2f4f4f)]() [![Star](https://img.shields.io/github/stars/Alpha-VLLM/Lumina-T2X.svg?style=social&label=Star)](https://github.com/Alpha-VLLM/Lumina-T2X)  
+
+- [**VideoComposer: Compositional Video Synthesis with Motion Controllability**](https://arxiv.org/pdf/2306.02018.pdf) [![Paper](https://img.shields.io/badge/arXiv23-b22222)]() [![Star](https://img.shields.io/github/stars/ali-vilab/videocomposer.svg?style=social&label=Star)](https://github.com/ali-vilab/videocomposer)  
 
 
 ## X-to-Any (input-centric)
@@ -239,11 +248,15 @@ Image-to-Any aims to generate other modalities from visual input, such as image 
 
 - [**ImageBind: One Embedding Space To Bind Them All**](https://arxiv.org/pdf/2305.05665) [![Paper](https://img.shields.io/badge/CVPR23-8A2BE2)]()   [![Star](https://img.shields.io/github/stars/facebookresearch/ImageBind.svg?style=social&label=Star)](https://github.com/facebookresearch/ImageBind)   
     *🏷️:* ` Binding modalities with images`|`📄🎨🎬🔊`
+
 ---
 
 # 🐱‍🚀 Miscellaneous
 
 ## Workshop
+
+- [Any-to-Any Multimodal Learning CVPR Workshop 2026](https://a2a-mml-2026.vercel.app/)
+
 
 ## Survey
 
@@ -252,7 +265,7 @@ Image-to-Any aims to generate other modalities from visual input, such as image 
 - [**Brain-Conditional Multimodal Synthesis: A Survey and Taxonomy**](https://arxiv.org/pdf/2401.00430)
 
 - [**Multimodal Foundation Models: From Specialists to General-Purpose Assistants**](https://arxiv.org/pdf/2309.10020)
-- 
+
 
 ## Awesome Github Repo
 
