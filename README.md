@@ -48,6 +48,17 @@ A model/system is considered Any-to-Any if it satisfies at least one of the foll
 
 # 🌷 Datasets 
 
+- [**MMIE: Massive Multimodal Interleaved Comprehension Benchmark for Large Vision-Language Models**](https://arxiv.org/pdf/2410.10139())  `📄🎨`
+
+- [**Interleaved Scene Graphs for Interleaved Text-and-Image Generation Assessment**](https://openreview.net/pdf?id=rDLgnYLM5b) `📄🎨`
+
+- [**OpenING: A Comprehensive Benchmark for Judging Open-ended Interleaved Image-Text Generation**](https://openaccess.thecvf.com/content/CVPR2025/papers/Zhou_OpenING_A_Comprehensive_Benchmark_for_Judging_Open-ended_Interleaved_Image-Text_Generation_CVPR_2025_paper.pdf)  `📄🎨`
+
+- [**A High-Quality Dataset and Reliable Evaluation for Interleaved Image-Text Generation**](https://arxiv.org/pdf/2506.09427)   `📄🎨`
+
+- [**InterleavedBench: Holistic Evaluation for Interleaved Text-and-Image Generation**](https://arxiv.org/pdf/2406.14643)  `📄🎨`
+
+
 <!-- CVPR-8A2BE2 -->
 <!-- WACV-6a5acd -->
 <!-- NIPS-CD5C5C2 -->
@@ -260,11 +271,18 @@ Image-to-Any aims to generate other modalities from visual input, such as image 
 
 ## Survey
 
+- [**Unified multimodal understanding and generation models: Advances, challenges, and opportunities**](https://arxiv.org/pdf/2505.02567)
+
+- [**A Survey of Unified Multimodal Understanding and Generation: Advances and Challenges**](https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.176289261.16802577)
+
+- [**On path to multimodal generalist: General-level and general-bench**](https://openreview.net/pdf?id=VsJ1K2HV3k)
+
 - [**MM-LLMs: Recent Advances in MultiModal Large Language Models**](https://arxiv.org/pdf/2401.13601)
 
 - [**Brain-Conditional Multimodal Synthesis: A Survey and Taxonomy**](https://arxiv.org/pdf/2401.00430)
 
 - [**Multimodal Foundation Models: From Specialists to General-Purpose Assistants**](https://arxiv.org/pdf/2309.10020)
+
 
 
 ## Awesome Github Repo
