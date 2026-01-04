@@ -25,6 +25,21 @@ A model/system is considered Any-to-Any if it satisfies at least one of the foll
 
 # 📕 Table of Content
 
+- [🌷 Datasets](#-dataset)
+- [📃Papers](#-papers)
+    - [Any-to-Any](#any-to-any)
+    - [Any-to-X (output-centric)](#any-to-x-output-centric)
+        - [Any-to-Text](#any-to-text)
+        - [Any-to-Image](#any-to-image)
+        - [Any-to-Video](#any-to-video)
+    - [X-to-Any (input-centric)](#x-to-any-input-centric)
+        - [Text-to-Any](#text-to-any)
+        - [Image-to-Any](#image-to-any)
+- [🐱‍🚀 Miscellaneous](#)
+    - [Workshop](#workshop)
+    - [Survey](#survey)
+    - [Interesting Works](#insteresting-works)
+
 
 
 # 🌷 Datasets 
@@ -42,17 +57,31 @@ A model/system is considered Any-to-Any if it satisfies at least one of the foll
 <!-- ACL-191970 -->
 <!-- TPAMI-ffa07a -->
 
-# Papers
+# 📃Papers
 
 
 ## Any-to-Any
 Any-to-Any generation refers to unified systems that can take inputs from multiple modalities (e.g., text/image/video/audio) and produce outputs in multiple modalities within a single framework.
 
+- [**Symbolic Representation for Any-to-Any Generative Tasks**](https://arxiv.org/pdf/2504.17261)  [![Paper](https://img.shields.io/badge/CVPR25-8A2BE2)]()  [![Star](https://img.shields.io/github/stars/Jiaqi-Chen-00/Any-2-Any.svg?style=social&label=Star)](https://github.com/Jiaqi-Chen-00/Any-2-Any)    
+    *🏷️:* `llm`|`diffusion`|`📄🎬🎨🧊`
 
-- [**Show-o2: Improved Native Unified Multimodal Models**](https://arxiv.org/pdf/2506.15564)  [![Paper](https://img.shields.io/badge/arXiv25-b22222)]  [![Star](https://img.shields.io/github/stars/showlab/Show-o.svg?style=social&label=Star)](https://github.com/showlab/Show-o)   
+- [**Easy, fast, and cheap omni-modality model serving for everyone**](https://docs.vllm.ai/projects/vllm-omni/en/latest/#about) [![Star](https://img.shields.io/github/stars/vllm-project/vllm.svg?style=social&label=Star)](https://github.com/vllm-project/vllm)   
+    *🏷️:* `mllm`|`Talker`|`📄🎬🎨🔊`
+
+- [**Uni-MoE-2.0-Omni: Scaling Language-Centric Omnimodal Large Model with Advanced MoE, Training and Data**](https://arxiv.org/pdf/2511.12609) ![Paper](https://img.shields.io/badge/arXiv25-b22222)  [![Star](https://img.shields.io/github/stars/NVlabs/OmniVinci.svg?style=social&label=Star)](https://github.com/NVlabs/OmniVinci)  
+    🏷️:* `llm`|`moe`|`📄🎬🎨🔊🎤`
+
+- [**OmniVinci: Enhancing Architecture and Data for Omni-Modal Understanding LLM**](https://arxiv.org/pdf/2510.15870) ![Paper](https://img.shields.io/badge/arXiv25-b22222) [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://nvlabs.github.io/OmniVinci/)  [![Star](https://img.shields.io/github/stars/HITsz-TMG/Uni-MoE.svg?style=social&label=Star)](https://github.com/HITsz-TMG/Uni-MoE/tree/master/Uni-MoE-2)  
+    🏷️:* `llm`|`flow`|`📄🎬🎨🔊🎤`
+
+- [**Qwen2.5-Omni Technical Report**](https://arxiv.org/pdf/2503.20215) ![Paper](https://img.shields.io/badge/arXiv25-b22222)  [![Star](https://img.shields.io/github/stars/QwenLM/Qwen2.5-Omni.svg?style=social&label=Star)](https://github.com/QwenLM/Qwen2.5-Omni)   
+    🏷️:* `llm`|`flow`|`📄🎬🎨🔊🎶🎤`
+
+- [**Show-o2: Improved Native Unified Multimodal Models**](https://arxiv.org/pdf/2506.15564)  ![Paper](https://img.shields.io/badge/arXiv25-b22222)  [![Star](https://img.shields.io/github/stars/showlab/Show-o.svg?style=social&label=Star)](https://github.com/showlab/Show-o)   
     *🏷️:* `llm`|`flow`|`📄🎬🎨`
 
-- [**Show-o: One Single Transformer to Unify Multimodal Understanding and Generation**](https://arxiv.org/pdf/2408.12528)  [![Paper](https://img.shields.io/badge/ICLR25-696969)]()  [![Star](https://img.shields.io/github/stars/showlab/Show-o.svg?style=social&label=Star)](https://github.com/showlab/Show-o)   
+- [**Show-o: One Single Transformer to Unify Multimodal Understanding and Generation**](https://arxiv.org/pdf/2408.12528)  ![Paper](https://img.shields.io/badge/ICLR25-696969)  [![Star](https://img.shields.io/github/stars/showlab/Show-o.svg?style=social&label=Star)](https://github.com/showlab/Show-o)   
     *🏷️:* `llm`|`diffusion`|`📄🎬🎨`
 
 - [**CoDi2: In-Context, Interleaved, and Interactive Any-to-Any Generation**](https://arxiv.org/abs/2311.18775)  [![Paper](https://img.shields.io/badge/CVPR24-8A2BE2)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://codi-2.github.io/)  [![Star](https://img.shields.io/github/stars/microsoft/i-Code.svg?style=social&label=Star)](https://github.com/microsoft/i-Code/tree/main/CoDi-2)    
@@ -87,8 +116,15 @@ Any-to-Any generation refers to unified systems that can take inputs from multip
     *🏷️:* `transformer encoder-decoder`|`📄🎨`
 
 
-- [**4M-21: An Any-to-Any Vision Model for Tens of Tasks and Modalities**](https://arxiv.org/pdf/2406.09406) [![Paper](https://img.shields.io/badge/NIPS24-CD5C5C2)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://4m.epfl.ch/)   
+- [**4M-21: An Any-to-Any Vision Model for Tens of Tasks and Modalities**](https://arxiv.org/pdf/2409.01392) [![Paper](https://img.shields.io/badge/NIPS24-CD5C5C2)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://4m.epfl.ch/)   
     *🏷️:* `masked modeling`|`transformer encoder-decoder`|`📄🎨`
+
+- [**ComfyBench: Benchmarking LLM-based Agents in ComfyUI for Autonomously Designing Collaborative AI Systems**](https://arxiv.org/pdf/2405.16136)  [![Paper](https://img.shields.io/badge/arXiv24-b22222)]()  
+    *🏷️:* `agent`|`📄🎬🎨` 
+
+
+- [**X-VILA: Cross-Modality Alignment for Large Language Model**](https://arxiv.org/pdf/2405.19335)  [![Paper](https://img.shields.io/badge/arXiv24-b22222)]()  
+    *🏷️:* `llm`|`diffusion`|`📄🎬🎨🔊` 
 
 - [**C3LLM: Conditional Multimodal Content Generation Using Large Language Models**](https://arxiv.org/pdf/2405.16136)  [![Paper](https://img.shields.io/badge/arXiv24-b22222)]()  
     *🏷️:* `transformer encoder-decoder`|`📄🎬🔊` 
@@ -119,13 +155,20 @@ Any-to-Any generation refers to unified systems that can take inputs from multip
     *🏷️:* `masked modeling`|`transformer encoder-decoder`|`📄🎨`
 
 
-
-
 ## Any-to-X (output-centric)
 Any-to-X methods accept flexible inputs (potentially multi-modal, such as text + image + audio) but generate a single target modality. This setting is often practically useful (e.g., “any condition → text report”, “any condition → image synthesis”, “any condition → video generation”), and it highlights how systems fuse heterogeneous conditions and maintain faithfulness to each input. Compared to fully general Any-to-Any systems, Any-to-X typically has a simpler decoding interface, but still demands strong cross-modal alignment and robust conditioning mechanisms.
 
 ### Any-to-Text
 Any-to-Text focuses on producing textual outputs (captioning, explanation, dialogue, reasoning traces, instruction-following) from arbitrary visual/audio/3D/video inputs.
+
+- [**Phi-4-Mini Technical Report: Compact yet Powerful Multimodal Language Models via Mixture-of-LoRAs**]() [![Paper](https://img.shields.io/badge/arXiv25-b22222)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://huggingface.co/microsoft/Phi-4-multimodal-instruct)    
+    *🏷️:* `llm`|`📄🎨🎤` 
+
+- [**A Reason-then-Describe Instruction Interpreter for Controllable Video Generation**](https://arxiv.org/pdf/2511.20563)  [![Paper](https://img.shields.io/badge/arXiv25-b22222)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://sqwu.top/ReaDe/)     
+    *🏷️:* `llm`|`📄🎬🎨🎥🏃🏻🔊🎤`
+
+- [**Any2Caption:Interpreting Any Condition to Caption for Controllable Video Generation**](https://arxiv.org/pdf/2503.24379)  [![Paper](https://img.shields.io/badge/arXiv25-b22222)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://sqwu.top/Any2Cap/)     
+    *🏷️:* `llm`|`📄🎬🎨🎥🏃🏻`
 
 - [**InternVL3.5: Advancing Open-Source Multimodal Models in Versatility, Reasoning, and Efficiency**](https://arxiv.org/pdf/2508.18265) [![Paper](https://img.shields.io/badge/arXiv25-b22222)]()  [![Star](https://img.shields.io/github/stars/OpenGVLab/InternVL.svg?style=social&label=Star)](https://github.com/OpenGVLab/InternVL)    
     *🏷️:* `llm`|`📄🎬🎨`
@@ -135,6 +178,9 @@ Any-to-Text focuses on producing textual outputs (captioning, explanation, dialo
 
 - [**EMU: GENERATIVE PRETRAINING IN MULTIMODALITY**](https://arxiv.org/pdf/2312.14238)  [![Paper](https://img.shields.io/badge/ICLR24-696969)]()  [![Star](https://img.shields.io/github/stars/baaivision/Emu.svg?style=social&label=Star)](https://github.com/baaivision/Emu)    
     *🏷️:* `llm`|`📄🎬🎨`
+
+- [**Uni-MoE: Scaling Unified Multimodal LLMs with Mixture of Experts**](https://arxiv.org/pdf/2405.11273) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]() [![Star](https://img.shields.io/github/stars/HITsz-TMG/Uni-MoE.svg?style=social&label=Star)](https://github.com/HITsz-TMG/Uni-MoE)   
+    *🏷️:* `llm`|`moe`|`📄🎬🎨🔊🎤`  
 
 - [**X-InstructBLIP: A Framework for Aligning Image, 3D, Audio, Video to LLMs and its Emergent Cross-modal Reasoning**](https://arxiv.org/pdf/2311.18799) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://artemisp.github.io/X-InstructBLIP-page/) [![Star](https://img.shields.io/github/stars/salesforce/LAVIS.svg?style=social&label=Star)](https://github.com/salesforce/LAVIS/tree/main/projects/xinstructblip)   
     *🏷️:* `llm`|`📄🎬🎨🔊🧊`  
@@ -155,8 +201,15 @@ Any-to-Text focuses on producing textual outputs (captioning, explanation, dialo
 - [**X-LLM: Bootstrapping Advanced Large Language Models by Treating Multi-Modalities as Foreign Languages**](https://arxiv.org/pdf/2305.04160) [![Paper](https://img.shields.io/badge/arXiv23-b22222)]()   [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://x-llm.github.io/)   [![Star](https://img.shields.io/github/stars/phellonchen/X-LLM.svg?style=social&label=Star)](https://github.com/phellonchen/X-LLM)   
     *🏷️:* `llm`|`📄🎬🎨🔊`
 
+- [**ONE-PEACE: Exploring One General Representation Model Toward Unlimited Modalities**](https://arxiv.org/pdf/2305.11172) [![Paper](https://img.shields.io/badge/arXiv23-b22222)]()  [![Star](https://img.shields.io/github/stars/OFA-Sys/ONE-PEACE.svg?style=social&label=Star)](https://github.com/OFA-Sys/ONE-PEACE)   
+    *🏷️:* `llm`|`modality alignment`|`📄🎬🎨🔊`
+
 ### Any-to-Image
 Any-to-Image methods generate images conditioned on diverse inputs beyond text, such as images, sketches, poses, layouts, audio cues, or multi-modal prompts.
+
+- [**OmniGen-AR: AutoRegressive Any-to-Image Generation**](https://openreview.net/pdf?id=Gxw10T7uOm)  [![Paper](https://img.shields.io/badge/NIPS25-CD5C5C2)]()
+
+- [**OmniGen: Unified Image Generation**](https://arxiv.org/pdf/2409.11340v2)  [![Paper](https://img.shields.io/badge/CVPR24-8A2BE2)]()  
 
 - [**Any2AnyTryon: Leveraging Adaptive Position Embeddings for Versatile Virtual Clothing Tasks**](https://arxiv.org/pdf/2501.15891)  [![Paper](https://img.shields.io/badge/ICCV24-2f4f4f)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://logn-2024.github.io/Any2anyTryon/)  [![Star](https://img.shields.io/github/stars/logn-2024/Any2anyTryon.svg?style=social&label=Star)](https://github.com/logn-2024/Any2anyTryon) 
 
@@ -178,6 +231,14 @@ Text-to-Any expands classic text-to-image into text-conditioned generation acros
 ### Image-to-Any
 Image-to-Any aims to generate other modalities from visual input, such as image → text (captioning/VQA), image → video (animation), image → audio (foley/sound), or image → 3D (reconstruction). The main technical challenge is learning mappings from static visual cues to modalities with missing dimensions (e.g., time, sound source, geometry), which often requires strong priors, world knowledge, or intermediate structured representations.
 
+
+## Any Alignment
+
+- [**LanguageBind: Extending Video-Language Pretraining to N-modality by Language-based Semantic Alignment**](https://arxiv.org/pdf/2310.01852) [![Paper](https://img.shields.io/badge/ICLR24-8A2BE2)]()   [![Star](https://img.shields.io/github/stars/PKU-YuanGroup/LanguageBind.svg?style=social&label=Star)](https://github.com/PKU-YuanGroup/LanguageBind)   
+    *🏷️:* ` Binding modalities with languages`|`📄🎨🎬🔊`
+
+- [**ImageBind: One Embedding Space To Bind Them All**](https://arxiv.org/pdf/2305.05665) [![Paper](https://img.shields.io/badge/CVPR23-8A2BE2)]()   [![Star](https://img.shields.io/github/stars/facebookresearch/ImageBind.svg?style=social&label=Star)](https://github.com/facebookresearch/ImageBind)   
+    *🏷️:* ` Binding modalities with images`|`📄🎨🎬🔊`
 ---
 
 # 🐱‍🚀 Miscellaneous
@@ -193,15 +254,28 @@ Image-to-Any aims to generate other modalities from visual input, such as image 
 - [**Multimodal Foundation Models: From Specialists to General-Purpose Assistants**](https://arxiv.org/pdf/2309.10020)
 - 
 
-## Insteresting Works
+## Awesome Github Repo
 
 - [**Awesome-Any-to-Any-Generation**](https://github.com/macabdul9/Awesome-Any-to-Any-Generation)
+
 - [**Awesome-Multimodal-Large-Language-Models**](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models)
+
 - [**Awesome-Unified-Multimodal-Models**](https://github.com/showlab/Awesome-Unified-Multimodal-Models)
+
 - [**LLMs Meet Multimodal Generation and Editing: A Survey**](https://github.com/YingqingHe/Awesome-LLMs-meet-Multimodal-Generation)
+
 - [**Awesome-Unified-Multimodal-Models**](https://github.com/AIDC-AI/Awesome-Unified-Multimodal-Models)
+
+- [**Awesome Autoregressive Models in Vision**](https://github.com/ChaofanTao/Autoregressive-Models-in-Vision-Survey)
+
 - [**Awesome-Anything**](https://github.com/VainF/Awesome-Anything)
     <details><summary>general AI methods for Anything</summary>A curated list of general AI methods for Anything: AnyObject, AnyGeneration, AnyModel, AnyTask, etc.</details>
+
+
+## Interesting Works
+- [**Better Together: Leveraging Unpaired Multimodal Data for Stronger Unimodal Models**](https://arxiv.org/pdf/2510.08492)
+- [**UViM: A Unified Modeling Approach for Vision with Learned Guiding Codes**](https://arxiv.org/pdf/2205.10337)
+
 
 # ⭐️ Star History
 
