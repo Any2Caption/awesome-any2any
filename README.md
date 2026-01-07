@@ -58,6 +58,10 @@ A model/system is considered Any-to-Any if it satisfies at least one of the foll
 
 - [**InterleavedBench: Holistic Evaluation for Interleaved Text-and-Image Generation**](https://arxiv.org/pdf/2406.14643)  `📄🎨`
 
+- [**OmniBench: Towards The Future of Universal Omni-Language Models**](https://arxiv.org/pdf/2409.15272)    `📄🎨🔊🎶`
+
+- [**Daily-Omni: Towards Audio-Visual Reasoning with Temporal Alignment across Modalities**](https://arxiv.org/pdf/2505.17862)     `📄🎬🔊`
+
 
 <!-- CVPR-8A2BE2 -->
 <!-- WACV-6a5acd -->
@@ -95,6 +99,12 @@ Any-to-Any generation refers to unified systems that can take inputs from multip
 
 - [**Mini-Omni2: Towards Open-source GPT-4o with Vision, Speech and Duplex Capabilities**](https://arxiv.org/pdf/2410.11190) ![Paper](https://img.shields.io/badge/arXiv25-b22222)  [![Star](https://img.shields.io/github/stars/gpt-omni/mini-omni2.svg?style=social&label=Star)](https://github.com/gpt-omni/mini-omni2)   
     🏷️:* `mllm`|`📄🎬🎨🎶🎤`
+
+- [**MiniCPM-o 2.6: A GPT-4o Level MLLM for Vision, Speech, and Multimodal Live Streaming on Your Phone**](https://openbmb.vercel.app/minicpm-o-2-6-en)     
+    🏷️:* `mllm`|`📄🎬🎨🎤`
+
+- [**Baichuan-Omni-1.5 Technical Report**](https://arxiv.org/pdf/2501.15368) ![Paper](https://img.shields.io/badge/arXiv25-b22222)  [![Star](https://img.shields.io/github/stars/baichuan-inc/Baichuan-Omni-1.5.svg?style=social&label=Star)](https://github.com/baichuan-inc/Baichuan-Omni-1.5)   
+    🏷️:* `mllm`|`📄🎬🎨🎤`
 
 - [**Show-o2: Improved Native Unified Multimodal Models**](https://arxiv.org/pdf/2506.15564)  ![Paper](https://img.shields.io/badge/arXiv25-b22222)  [![Star](https://img.shields.io/github/stars/showlab/Show-o.svg?style=social&label=Star)](https://github.com/showlab/Show-o)   
     *🏷️:* `llm`|`flow`|`📄🎬🎨`
@@ -179,23 +189,30 @@ Any-to-X methods accept flexible inputs (potentially multi-modal, such as text +
 ### Any-to-Text
 Any-to-Text focuses on producing textual outputs (captioning, explanation, dialogue, reasoning traces, instruction-following) from arbitrary visual/audio/3D/video inputs.
 
+
+- [**Omni-R1: Reinforcement Learning for Omnimodal Reasoning via Two-System Collaboration**](https://arxiv.org/pdf/2505.20256)   [![Paper](https://img.shields.io/badge/NIPS25-CD5C5C2)]()  [![Star](https://img.shields.io/github/stars/aim-uofa/Omni-R1.svg?style=social&label=Star)](https://github.com/aim-uofa/Omni-R1)         
+    *🏷️:* `Qwen2.5-Omni-7B`|`📄🎬🎨🔊🎤`
+
 - [**Phi-4-Mini Technical Report: Compact yet Powerful Multimodal Language Models via Mixture-of-LoRAs**]() [![Paper](https://img.shields.io/badge/arXiv25-b22222)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://huggingface.co/microsoft/Phi-4-multimodal-instruct)    
-    *🏷️:* `llm`|`📄🎨🎤` 
+    *🏷️:* `mllm`|`📄🎨🎤` 
 
 - [**A Reason-then-Describe Instruction Interpreter for Controllable Video Generation**](https://arxiv.org/pdf/2511.20563)  [![Paper](https://img.shields.io/badge/arXiv25-b22222)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://sqwu.top/ReaDe/)     
-    *🏷️:* `llm`|`📄🎬🎨🎥🏃🏻🔊🎤`
+    *🏷️:* `Qwen2.5-Omni-7B`|`📄🎬🎨🎥🏃🏻🔊🎤`
+
+- [**Daily-Omni: Towards Audio-Visual Reasoning with Temporal Alignment across Modalities**](https://arxiv.org/pdf/2505.17862)  [![Paper](https://img.shields.io/badge/arXiv25-b22222)]()  [![Star](https://img.shields.io/github/stars/Lliar-liar/Daily-Omni.svg?style=social&label=Star)](https://github.com/Lliar-liar/Daily-Omni)         
+    *🏷️:* `Qwen2.5-VL/Qwen2-Audio`|`📄🎬🎨🔊🎤`
 
 - [**Any2Caption:Interpreting Any Condition to Caption for Controllable Video Generation**](https://arxiv.org/pdf/2503.24379)  [![Paper](https://img.shields.io/badge/arXiv25-b22222)]() [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://sqwu.top/Any2Cap/)     
-    *🏷️:* `llm`|`📄🎬🎨🎥🏃🏻`
+    *🏷️:* `Qwen2.5-VL`|`📄🎬🎨🎥🏃🏻`
 
 - [**InternVL3.5: Advancing Open-Source Multimodal Models in Versatility, Reasoning, and Efficiency**](https://arxiv.org/pdf/2508.18265) [![Paper](https://img.shields.io/badge/arXiv25-b22222)]()  [![Star](https://img.shields.io/github/stars/OpenGVLab/InternVL.svg?style=social&label=Star)](https://github.com/OpenGVLab/InternVL)    
-    *🏷️:* `llm`|`📄🎬🎨`
+    *🏷️:* `mllm`|`📄🎬🎨`
 
 - [**InternVL: Scaling up Vision Foundation Models and Aligning for Generic Visual-Linguistic Tasks**](https://arxiv.org/pdf/2312.14238)  [![Paper](https://img.shields.io/badge/CVPR24-8A2BE2)]()  [![Star](https://img.shields.io/github/stars/OpenGVLab/InternVL.svg?style=social&label=Star)](https://github.com/OpenGVLab/InternVL)    
-    *🏷️:* `llm`|`📄🎬🎨`
+    *🏷️:* `mllm`|`📄🎬🎨`
 
 - [**EMU: GENERATIVE PRETRAINING IN MULTIMODALITY**](https://arxiv.org/pdf/2312.14238)  [![Paper](https://img.shields.io/badge/ICLR24-696969)]()  [![Star](https://img.shields.io/github/stars/baaivision/Emu.svg?style=social&label=Star)](https://github.com/baaivision/Emu)    
-    *🏷️:* `llm`|`📄🎬🎨`
+    *🏷️:* `mllm`|`📄🎬🎨`
 
 - [**Uni-MoE: Scaling Unified Multimodal LLMs with Mixture of Experts**](https://arxiv.org/pdf/2405.11273) [![Paper](https://img.shields.io/badge/arXiv24-b22222)]() [![Star](https://img.shields.io/github/stars/HITsz-TMG/Uni-MoE.svg?style=social&label=Star)](https://github.com/HITsz-TMG/Uni-MoE)   
     *🏷️:* `llm`|`moe`|`📄🎬🎨🔊🎤`  
