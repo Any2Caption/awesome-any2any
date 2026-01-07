@@ -93,6 +93,9 @@ Any-to-Any generation refers to unified systems that can take inputs from multip
 - [**Qwen2.5-Omni Technical Report**](https://arxiv.org/pdf/2503.20215) ![Paper](https://img.shields.io/badge/arXiv25-b22222)  [![Star](https://img.shields.io/github/stars/QwenLM/Qwen2.5-Omni.svg?style=social&label=Star)](https://github.com/QwenLM/Qwen2.5-Omni)   
     🏷️:* `llm`|`flow`|`📄🎬🎨🔊🎶🎤`
 
+- [**Mini-Omni2: Towards Open-source GPT-4o with Vision, Speech and Duplex Capabilities**](https://arxiv.org/pdf/2410.11190) ![Paper](https://img.shields.io/badge/arXiv25-b22222)  [![Star](https://img.shields.io/github/stars/gpt-omni/mini-omni2.svg?style=social&label=Star)](https://github.com/gpt-omni/mini-omni2)   
+    🏷️:* `mllm`|`📄🎬🎨🎶🎤`
+
 - [**Show-o2: Improved Native Unified Multimodal Models**](https://arxiv.org/pdf/2506.15564)  ![Paper](https://img.shields.io/badge/arXiv25-b22222)  [![Star](https://img.shields.io/github/stars/showlab/Show-o.svg?style=social&label=Star)](https://github.com/showlab/Show-o)   
     *🏷️:* `llm`|`flow`|`📄🎬🎨`
 
