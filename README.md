@@ -84,10 +84,10 @@ Any-to-Any generation refers to unified systems that can take inputs from multip
 - [**Easy, fast, and cheap omni-modality model serving for everyone**](https://docs.vllm.ai/projects/vllm-omni/en/latest/#about) [![Star](https://img.shields.io/github/stars/vllm-project/vllm.svg?style=social&label=Star)](https://github.com/vllm-project/vllm)   
     *🏷️:* `mllm`|`Talker`|`📄🎬🎨🔊`
 
-- [**Uni-MoE-2.0-Omni: Scaling Language-Centric Omnimodal Large Model with Advanced MoE, Training and Data**](https://arxiv.org/pdf/2511.12609) ![Paper](https://img.shields.io/badge/arXiv25-b22222)  [![Star](https://img.shields.io/github/stars/NVlabs/OmniVinci.svg?style=social&label=Star)](https://github.com/NVlabs/OmniVinci)  
+- [**Uni-MoE-2.0-Omni: Scaling Language-Centric Omnimodal Large Model with Advanced MoE, Training and Data**](https://arxiv.org/pdf/2511.12609) ![Paper](https://img.shields.io/badge/arXiv25-b22222)  [![Star](https://img.shields.io/github/stars/HITsz-TMG/Uni-MoE.svg?style=social&label=Star)](https://github.com/HITsz-TMG/Uni-MoE/tree/master/Uni-MoE-2)   
     🏷️:* `llm`|`moe`|`📄🎬🎨🔊🎤`
 
-- [**OmniVinci: Enhancing Architecture and Data for Omni-Modal Understanding LLM**](https://arxiv.org/pdf/2510.15870) ![Paper](https://img.shields.io/badge/arXiv25-b22222) [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://nvlabs.github.io/OmniVinci/)  [![Star](https://img.shields.io/github/stars/HITsz-TMG/Uni-MoE.svg?style=social&label=Star)](https://github.com/HITsz-TMG/Uni-MoE/tree/master/Uni-MoE-2)  
+- [**OmniVinci: Enhancing Architecture and Data for Omni-Modal Understanding LLM**](https://arxiv.org/pdf/2510.15870) ![Paper](https://img.shields.io/badge/arXiv25-b22222) [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://nvlabs.github.io/OmniVinci/)    [![Star](https://img.shields.io/github/stars/NVlabs/OmniVinci.svg?style=social&label=Star)](https://github.com/NVlabs/OmniVinci)  
     🏷️:* `llm`|`flow`|`📄🎬🎨🔊🎤`
 
 - [**Qwen2.5-Omni Technical Report**](https://arxiv.org/pdf/2503.20215) ![Paper](https://img.shields.io/badge/arXiv25-b22222)  [![Star](https://img.shields.io/github/stars/QwenLM/Qwen2.5-Omni.svg?style=social&label=Star)](https://github.com/QwenLM/Qwen2.5-Omni)   
