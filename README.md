@@ -62,6 +62,8 @@ A model/system is considered Any-to-Any if it satisfies at least one of the foll
 
 - [**Daily-Omni: Towards Audio-Visual Reasoning with Temporal Alignment across Modalities**](https://arxiv.org/pdf/2505.17862)     `📄🎬🔊`
 
+- [**AV-Reasoner: Improving and Benchmarking Clue-Grounded Audio-Visual Counting for MLLMs**](https://arxiv.org/pdf/2506.05328)      `📄🎬🔊`
+
 
 <!-- CVPR-8A2BE2 -->
 <!-- WACV-6a5acd -->
@@ -92,7 +94,10 @@ Any-to-Any generation refers to unified systems that can take inputs from multip
     🏷️:* `llm`|`moe`|`📄🎬🎨🔊🎤`
 
 - [**OmniVinci: Enhancing Architecture and Data for Omni-Modal Understanding LLM**](https://arxiv.org/pdf/2510.15870) ![Paper](https://img.shields.io/badge/arXiv25-b22222) [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://nvlabs.github.io/OmniVinci/)    [![Star](https://img.shields.io/github/stars/NVlabs/OmniVinci.svg?style=social&label=Star)](https://github.com/NVlabs/OmniVinci)  
-    🏷️:* `llm`|`flow`|`📄🎬🎨🔊🎤`
+    🏷️:* `llm`|`MMDiT`|`📄🎬🎨🔊🎤`
+
+- [**Ming-Omni: A Unified Multimodal Model for Perception and Generation**](https://arxiv.org/pdf/2506.09344)  ![Paper](https://img.shields.io/badge/arXiv25-b22222) [![Project_Page](https://img.shields.io/badge/Project_Page-00CED1)](https://lucaria-academy.github.io/Ming-Omni/)    [![Star](https://img.shields.io/github/stars/inclusionAI/Ming.svg?style=social&label=Star)](https://github.com/inclusionAI/Ming)  
+    🏷️:* `Ling`|`flow`|`📄🎬🎨🔊🎤`
 
 - [**Qwen2.5-Omni Technical Report**](https://arxiv.org/pdf/2503.20215) ![Paper](https://img.shields.io/badge/arXiv25-b22222)  [![Star](https://img.shields.io/github/stars/QwenLM/Qwen2.5-Omni.svg?style=social&label=Star)](https://github.com/QwenLM/Qwen2.5-Omni)   
     🏷️:* `llm`|`flow`|`📄🎬🎨🔊🎶🎤`
