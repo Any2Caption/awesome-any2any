@@ -194,6 +194,8 @@ Any-to-X methods accept flexible inputs (potentially multi-modal, such as text +
 ### Any-to-Text
 Any-to-Text focuses on producing textual outputs (captioning, explanation, dialogue, reasoning traces, instruction-following) from arbitrary visual/audio/3D/video inputs.
 
+- [**HumanOmniV2: From Understanding to Omni-Modal Reasoning with Context**](https://arxiv.org/pdf/2506.21277)  [![Paper](https://img.shields.io/badge/arXiv25-b22222)]()  [![Star](https://img.shields.io/github/stars/HumanMLLM/HumanOmniV2.svg?style=social&label=Star)](https://github.com/HumanMLLM/HumanOmniV2)         
+    *🏷️:* `Qwen2.5-Omni-7B-thinker`|`📄🎬🎤`
 
 - [**Omni-R1: Reinforcement Learning for Omnimodal Reasoning via Two-System Collaboration**](https://arxiv.org/pdf/2505.20256)   [![Paper](https://img.shields.io/badge/NIPS25-CD5C5C2)]()  [![Star](https://img.shields.io/github/stars/aim-uofa/Omni-R1.svg?style=social&label=Star)](https://github.com/aim-uofa/Omni-R1)         
     *🏷️:* `Qwen2.5-Omni-7B`|`📄🎬🎨🔊🎤`
